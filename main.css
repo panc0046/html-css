@@ -1,0 +1,91 @@
+@media (max-width: 1920px){
+    nav {
+        background-color: hsl(221, 47%, 50%);
+        padding: 20px;
+    }
+    nav a {
+        color: hsl(236, 40%, 100%);
+        font-family:'Times New Roman', Times, serif;
+        font-size: 2rem;
+        text-decoration: none;
+        padding: 10px;
+    }
+    .image {
+        color: hsl(140, 30%, 29%);
+        background-image: url("./background.jpg")
+    }
+}
+
+@media (max-width: 650px){
+    nav {
+        background-color: hsl(221, 47%, 50%);
+        padding: 20px;
+    }
+    nav a {
+        color: hsl(236, 40%, 100%);
+        font-family:'Times New Roman', Times, serif;
+        font-size: 2rem;
+        text-decoration: none;
+        padding: 10px;
+    }
+    img{
+        content: url("./background-2.jpg");
+    }
+    .image {
+        color:hsl(222, 100%, 50%);
+    }
+}
+
+@media (max-width: 376px) {
+    nav a{
+        display: block;
+    }
+}
+
+a:hover {
+    text-decoration: underline;
+}
+hr {
+    display: block;
+    height: 40px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    background-color: hsl(236, 40%, 18%);
+    border-width: 0px;
+}
+.image {
+    position: relative;
+    text-align: center;
+    font-family: 'Gill Sans', Calibri, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.text1 {
+    position: absolute;
+    bottom: 3em;
+    right: auto;
+    color: hsl(239, 52%, 5%);
+    padding-left: 20px;
+  }
+.content {
+    padding: 0 50px 15px 50px;
+}
+#heading{
+    font-size: 3rem;
+    color:  hsl(221, 47%, 50%);
+}
+.body-content {
+    font-size: 1rem;
+}
+h3{
+    font-size: 1.5rem;
+    color:  hsl(221, 47%, 50%);
+}
+h2{
+    font-size: 3rem;
+    color:  hsl(221, 47%, 50%);
+}
+img {
+    width: 100%;
+    height: 350px;
+}
