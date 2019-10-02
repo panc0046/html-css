@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
 @media (max-width: 1920px){
     nav {
         background-color: hsl(221, 47%, 50%);
@@ -5,7 +7,6 @@
     }
     nav a {
         color: hsl(236, 40%, 100%);
-        font-family:'Times New Roman', Times, serif;
         font-size: 2rem;
         text-decoration: none;
         padding: 10px;
@@ -23,7 +24,6 @@
     }
     nav a {
         color: hsl(236, 40%, 100%);
-        font-family:'Times New Roman', Times, serif;
         font-size: 2rem;
         text-decoration: none;
         padding: 10px;
@@ -56,7 +56,6 @@ hr {
 .image {
     position: relative;
     text-align: center;
-    font-family: 'Gill Sans', Calibri, sans-serif;
     font-size: 40px;
     font-weight: bold;
     text-shadow: 3px 3px hsl(236, 40%, 100%);
@@ -93,6 +92,9 @@ img {
 }
 body{
     float: left;
+}
+html {
+    font-family: Raleway, sans-serif;
 }
 ul li {
     font-size: 1rem;
